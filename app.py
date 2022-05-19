@@ -1,31 +1,3 @@
-# psuedocode:
-# import data from constants.py
-# create clean_data function:
-#   create new list of dictionaries
-#   copy data from argument while converting height to an integer and experience to a boolean
-#   split guardians into a list of strings making 2 separate entries in the dictionary
-#   return cleaned list of dictionaries
-# 
-# create balance_teams function:
-#   increment through the list of experienced players, assigning them to one of the 3 teams
-#   increment through inexperienced players, assigning them to one of the 3 teams
-#   store the players data in 3 new lists of dictionaries for each team
-#
-# inside dunder main statement:
-# run clean_data on constants.py
-# run balance_teams on constants.py
-# loop until user chooses to quit the program:
-#   display menu and give user an option to select:
-#       display team stats:
-#           display list of teams and give user option to select which team:
-#           display length of list of players for the team
-#           display number of experienced players on the team
-#           display number of inexperienced players on the team
-#           display average height of the players on the team
-#           increment through the players and print their names
-#           increment through the players and print the names of their guardians
-#       quit:
-#           end program
 import constants
 
 
